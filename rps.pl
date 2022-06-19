@@ -17,9 +17,9 @@ wins(p, r).
 wins(r, s).
 wins(s, p).
 
-win  :- writeln('You win!').
-lose :- writeln('The computer wins').
+win  :- writeln('You win the game!').
+lose :- writeln('The computer wins!').
 draw :- writeln('It''s a draw...').
-show_comp(r) :- writeln(rock).
-show_comp(p) :- writeln(paper).
+show_comp(r) :- writeln(rocks).
+show_comp(p) :- writeln(papers).
 show_comp(s) :- writeln(scissors).
